@@ -21,7 +21,7 @@ let badGuyPromise = new Promise(
 
 badGuyPromise
 	.then(badGuy => console.warn(badGuy))
-	.catch(msg => console.log(msg))
+	.catch(msg => console.info(msg))
 
 
 // do not do this at home
