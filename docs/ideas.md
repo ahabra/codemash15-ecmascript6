@@ -12,7 +12,8 @@ Promise FF
 Class 6to5
 Modules 6to5
 
-map with expression key
+Computed property names
+destructure
 
 
 

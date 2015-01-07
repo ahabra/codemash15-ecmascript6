@@ -1,5 +1,5 @@
 
-// let variables have block scope
+// let/const have block scope
 const flag = true;  // notice the constant
 if (flag) {
 	var a= 1;
