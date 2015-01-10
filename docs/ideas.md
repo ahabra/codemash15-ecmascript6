@@ -24,3 +24,4 @@ Links:
 2. developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla
 3. kangax.github.io/compat-table/es6/
 4. 6to5.org
+https://github.com/lukehoban/es6features
