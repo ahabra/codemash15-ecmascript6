@@ -2,6 +2,7 @@
 let odds = {}
 
 // step2: define a property with key Symbol.iterator which has a function value
+// notice how the key Symbol.iterator is a computed value
 odds[Symbol.iterator] = function() {
 	const max=10
 	let odd = -1
