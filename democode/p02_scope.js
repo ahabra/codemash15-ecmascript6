@@ -6,7 +6,7 @@ if (flag) {
 	let b= 2;
 }
 
-console.log(1)
+console.log(a)
 console.log(b)  // Will cause an error
 
 // no hoisting
