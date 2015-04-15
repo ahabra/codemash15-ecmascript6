@@ -13,7 +13,12 @@ var book = {
 	year: 1961
 }
 
-function getId({id}) {
+var xx = {
+	id: 42
+}
+
+function getId({id}, {id}) {
+	console.log(x)
 	return id
 }
 
@@ -21,5 +26,5 @@ function formattedTitle({title, author}) {
 	return title + ' by ' + author
 }
 
-console.log(getId(book))
+console.log(getId(book, xx))
 console.log(formattedTitle(book))
