@@ -17,8 +17,7 @@ var xx = {
 	id: 42
 }
 
-function getId({id}, {id}) {
-	console.log(x)
+function getId({id}) {
 	return id
 }
 
@@ -26,5 +25,5 @@ function formattedTitle({title, author}) {
 	return title + ' by ' + author
 }
 
-console.log(getId(book, xx))
+console.log(getId(book))
 console.log(formattedTitle(book))

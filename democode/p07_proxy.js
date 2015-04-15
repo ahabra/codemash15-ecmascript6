@@ -2,8 +2,9 @@ var idHandler = {
 	get: function(target, propName) {
 		if (propName in target) return target[propName];
 		if (propName === 'id') {
-			target[propName] = 'id_' + (this._id++)
-			return target[propName]
+			let id = 'id_' + this._id++;
+			target['id'] = id
+			return id
 		}
 		return undefined;
 	},
